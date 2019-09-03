@@ -43,7 +43,7 @@
             <a class="nav-link js-scroll-trigger" href="#services">Service</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#inscription">Inscription</a>
+            <a class="nav-link js-scroll-trigger" href="#inscription">Témoignages</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -79,7 +79,7 @@
           <hr class="divider light my-4">
           <h4 class="text-white-50 mb-4"><STRONG>392 €</STRONG> *</h4>
           <h4 class="text-white-50 mb-4">Inclus : la formation au Code, les supports vidéos, les tests de préparation, l'inscription à l'examen ainsi que la conduite.<br>Partout en France. Toute l'année.</h4>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="firstlesson/index.html">1ère/3 leçon gratuite</a>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="firstlesson/index.html">J'obtiens mon permis</a>
           <br><br><p class="text-white-50 mb-4"><small>(*) +108 € de timbres fiscaux</small></p>
         </div>
       </div>
@@ -125,14 +125,45 @@
   </section>
 
   <!-- Call to Action Section -->
+
   <section class="page-section bg-dark text-white" id="inscription">
     <div class="container text-center">
-      <h2 class="mb-4">Dossier Inscription</h2>
-      <p>1 Photo d'identité couleur au format jpeg (35 x 45)</p>
-      <p>1 Photocopie de la pièce d'identité recto verso en format pdf</p>
-      <p>Le <a href="./certificataptitudephysique.pdf" target="_blank">certificat d'aptitude physique</a> rempli et signé en format pdf</p>
-      <p></p>
-      <br><a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">J'obtiens mon permis</a>
+      <div class="row">
+        <div class="col-md-12 mx-auto">
+          <h2 class="mb-4">Témoignages</h2>
+            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h3>"Les trois leçons "</h3>
+                </div>
+                <div class="carousel-item">
+                  <h3>"Renforcer le relationnel en déjeunant tous ensemble à l'extérieur<br>(restaurant, pique-nique...)"<br><br></h3>
+                </div>
+                <div class="carousel-item">
+                  <h3>"Il faudrait avoir plus d'interactions avec les gens du bâtiment<br>avec lesquels je ne travaille pas<br>et qui ne font pas partie de mon service"</h3>
+                </div>
+                <div class="carousel-item">
+                  <h3>"Aménager des moments conviviaux<br>pour renforcer le fameux <em>team building</em>"<br><br></h3>
+                </div>
+                <div class="carousel-item">
+                  <h3>"Réussir à faire plus de transversal et de réflexions stratégiques"<br><br><br></h3>
+                </div>
+                <div class="carousel-item">
+                  <h3>"Des moments plus ludiques seraient bienvenus<br>(faire du sport, ou autre loisir, sur le temps de midi par exemple)"<br><br></h3>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          <br><a class="btn btn-light btn-xl js-scroll-trigger" href="firstlesson/index.html">J'obtiens mon permis</a>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -153,8 +184,11 @@
         </div>
         <div class="col-lg-4 mr-auto text-center">
           <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+<form method="POST" action="https://formspree.io/alexheume@yahoo.fr">
+  <input type="email" name="email" placeholder="Votre mail">
+  <textarea name="message" placeholder="Votre message"></textarea>
+  <button type="submit">Envoyer</button>
+</form>
         </div>
       </div>
     </div>
