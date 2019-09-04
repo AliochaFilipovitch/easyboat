@@ -127,24 +127,39 @@
     </div>
   </section>
 
-  <hr>
-
   <!-- Inscription Section -->
-  <section class="page-section" id="inscription">
+  <section class="page-section" id="inscription" style="
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url('img/permisimg.jpeg');
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(223,200,183, 0.8) 100%), url('img/permisimg.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="mt-0">Inscription</h2>
+        <div class="col-lg-6 text-center">
+          <h2 class="text-white mt-0"><STRONG>Inscription</STRONG></h2>
           <hr class="divider my-4">
-          <p class="text-muted mb-5">Une question ? Envoyez-nous un petit message !<br>Nous vous réponderons le plus rapidement possible !</p>
+          <p class="text-white mb-5">Complétez le formulaire d'inscription ci-dessous en spécifiant où vous souhaitez passer votre permis, et recevez les trois mémos audios et papiers des notions maritimes.</p>
           <form method="POST" action="https://formspree.io/alexheume@yahoo.fr">
             <div class="form-group">
-              <input type="email" name="email" class="form-control" placeholder="Votre mail">
+              <input type="text" name="nom" class="form-control" placeholder="Nom" required>
             </div>
             <div class="form-group">
-              <textarea name="message" class="form-control" placeholder="Votre message" rows="3"></textarea>
+              <input type="text" name="prenom" class="form-control" placeholder="Prénom" required>
             </div>
-            <button type="submit" class="btn btn-primary">Envoyer</button>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" placeholder="Votre mail" required>
+            </div>
+            <div class="form-group">
+              <input type="text" name="villep" class="form-control" placeholder="Ville souhaitée" required>
+            </div>
+            <div class="form-group">
+              <textarea name="message" class="form-control" placeholder="Votre message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Obtenir 3 mémos gratuits</button>
           </form>
         </div>
       </div>
